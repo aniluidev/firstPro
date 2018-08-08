@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HTML5 Test Page </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+
+<body>
+    <div id="top" class="page" role="document">
+        <header role="mani heading">
+            <h1>HTML5 Test Page</h1>
+            <p>This is a test page filled with common HTML5 elements</p>
+        </header>
+        <nav role="navigation">
+            <ul>
+                <li>
+                    <a href="#text">Text</a>
+                    <ul>
+                        <li>
+                            <a href="#headings">Headings</a>
+                        </li>
+                        <li>
+                            <a href="#paragraphs">Paragraphs</a>
+                        </li>
+                        <li>
+                            <a href="#blockquotes">Blockquotes</a>
+                        </li>
+                        <li>
+                            <a href="#lists">Lists</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <section id="text">
+                <article id="headings">
+                    <h1>Headings</h1>
+                    <div>
+                        <h1>Heading 1</h1>
+                        <h2>Heading 2</h2>
+                        <h3>Heading 3</h3>
+                        <h4>Heading 4</h4>
+                        <h5>Heading 5</h5>
+                        <h6>Heading 6</h6>
+                    </div>
+                </article>
+            </section>
+            <section id="embedded_content">
+                <header>
+                    <h1>Embedded content</h1>
+                </header>
+                <article id="embedded__images">
+                    <header>
+                        <h2>figure Element with Figure Caption</h2>
+                    </header>
+                    <figure>
+                        <p>
+                            <img src="./HTML5/html5.png" alt="html5 Image">
+                        </p>
+                        <figcaption>HTML5 IMAGE</figcaption>
+                    </figure>
+                    <section id="forms">
+                        <header>
+                            <h1>Form elements</h1>
+                        </header>
+                        <form>
+                            <fieldset id="input_forms">
+                                <legend>Input fields</legend>
+                                <p>
+                                    <label>Text Input</label>
+                                    <input id="text" type="text" placeholder="full name">
+                                </p>
+                                <p>
+                                    <label>Password</label>
+                                    <input id="password" type="password" placeholder="Type your Password">
+                                </p>
+                                <p>
+                                    <label>Web Address</label>
+                                    <input id="webaddress" type="url" placeholder="http://gmail.com">
+                                </p>
+                                <p>
+                                    <label>Email Address</label>
+                                    <input id="emailaddress" type="email" placeholder="anilkumar@email.com">
+                                </p>
+                                <p>
+                                    <label>Phone Number</label>
+                                    <input id="phone" type="number" placeholder="(123) 456-7890">
+                                </p>
+                                <p>
+                                    <label for=>Search</label>
+                                    <input id="searchbar" type="search" placeholder="Enter Search Term">
+                                </p>
+                                <p>
+                                    <label for=>Number Input</label>
+                                    <input id="number_input" type="number" placeholder="Enter a Phone Number">
+                                </p>
+                            </fieldset>
+                            <fieldset id="forms__select">
+                                    <legend>Select menus</legend>
+                                    <p>
+                                      <label for="select">Select</label>
+                                      <select id="select">
+                                        <optgroup label="Option Group">
+                                          <option>Option One</option>
+                                          <option>Option Two</option>
+                                          <option>Option Three</option>
+                                        </optgroup>
+                                      </select>
+                                    </p>
+                                  </fieldset>
+                                  <fieldset id="forms__checkbox">
+                                        <legend>Checkboxes</legend>
+                                        <ul class="list">
+                                          <li>
+                                            <label>
+                                              <input id="checkbox1" name="checkbox" type="checkbox" checked="checked"> Choice A</label>
+                                          </li>
+                                          <li>
+                                            <label>
+                                              <input id="checkbox2" name="checkbox" type="checkbox"> Choice B</label>
+                                          </li>
+                                        </ul>
+                                      </fieldset>
+                            <fieldset id="html5_inputs">
+                                <legend>HTML5 inputs</legend>
+                                <p>
+                                    <label>Color input</label>
+                                    <input type="color" id="input_color" value="#000000">
+                                </p>
+                                <p>
+                                    <label>Number input</label>
+                                    <input type="number" id="input_number" min="0" max="100" value="1">
+                                </p>
+                                <p>
+                                    <label>Range input</label>
+                                    <input type="range" id="inputrange" value="15">
+                                </p>
+                                <p>
+                                    <label>Date input</label>
+                                    <input type="date" id="inputdate" value="06/10/1990">
+                                </p>
+                                <p>
+                                    <label>Month input</label>
+                                    <input type="month" id="inputmonth" value="1990-01">
+                                </p>
+                                <p>
+                                    <label>Week input</label>
+                                    <input type="week" id="inputweek" value="1990-W01">
+                                </p>
+                                <p>
+                                    <label>Datetime input</label>
+                                    <input type="datetime" id="datetime" value="1990-01-01T00:00:00Z">
+                                </p>
+                                <p>
+                                    <label>Datetime-local input</label>
+                                    <input type="datetime-local" id="datetimelocal" value="1990-01-01T00:00">
+                                </p>
+                            </fieldset>
+                            <p>
+                                <a href="#top">[Top]</a>
+                            </p>
+                        </form>
+                        <article id="embedded__audio">
+                            <h2>Audio</h2>
+                            <div>
+                                <audio controls="">audio</audio>
+                            </div>
+                        </article>
+                        <article id="embedded__meter">
+                                <h2>meter</h2>
+                                <div>
+                                    <meter value="20" min="0" max="50">20 of 50</meter>
+                                </div>
+                            </article>
+                        <article id="embedded__video">
+                            <h2>Video</h2>
+                            <div>
+                                <video controls="">video</video>
+                            </div>
+                        </article>
+                        <article id="embedded__canvas">
+                            <h2>Canvas</h2>
+                            <div>
+                                <canvas id="myCanvas" width="200" height="100" style="border:2px solid red">canvas</canvas>
+                            </div>
+                        </article>
+                        <article id="embedded__svg">
+                            <h2>SVG</h2>
+                            <div>
+                                <svg width="100px" height="100px">
+                                    <circle cx="100" cy="100" r="100" fill="#1fa3ec"></circle>
+                                </svg>
+                            </div>
+                        </article>
+                        <article id="embedded__iframe">
+                            <h2>IFrame</h2>
+                            <div>
+                                <iframe src="index.html" height="300"></iframe>
+                            </div>
+                        </article>
+                        <footer>
+                            <p>
+                                <a href="#top">[Top]</a>
+                            </p>
+                            <cite>HTML5TestPage@2018.com</cite>
+                        </footer>
+
+    </div>
+
+
+</body>
+
+</html>
